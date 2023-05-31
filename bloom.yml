@@ -1,0 +1,21 @@
+name: bloom
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pdf2image
+  - pillow
+  - pip
+  - poppler
+  - pytesseract
+  - python=3.9
+  - pyyaml
+  - pip:
+    - https://download.pytorch.org/whl/cu118/torch-2.0.0%2Bcu118-cp39-cp39-linux_x86_64.whl
+    - https://download.pytorch.org/whl/cu118/torchvision-0.15.0%2Bcu118-cp39-cp39-linux_x86_64.whl
+    - https://download.pytorch.org/whl/cu118/torchaudio-2.0.0%2Bcu118-cp39-cp39-linux_x86_64.whl
+    - transformers
+    - accelerate
+    - deepspeed
+    - bitsandbytes
+    - datasets
